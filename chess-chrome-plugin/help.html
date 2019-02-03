@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app="puzzles">
+<head>
+    <meta charset="utf-8">
+    <title>Chess Puzzles</title>
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+
+<section style="padding:20px">
+
+    <div ng-controller="PuzzleController" data-ng-init="loadPuzzles()">
+
+        <section class="wrapper">
+
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="row" style="border: 0px solid red;">
+                        <div class="col-lg-12">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Help</h2>
+                                </div>
+                                <div class="card-body">
+                                    <img src="help/puzzlerush.png"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+</section>
+
+<script src="js/angular.min.js"></script>
+<script src="js/puzzles.js"></script>
+
+</body>
+</html>
