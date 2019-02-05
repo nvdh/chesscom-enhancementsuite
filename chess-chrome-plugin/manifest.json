@@ -1,7 +1,7 @@
 {
   "name": "Chess.com Enhancement Suite",
   "description" : "Some additional features on the chess.com website; save the puzzles you failed in puzzle rush and replay them afterwards.",
-  "version": "1.0",
+  "version": "0.0.1",
   "browser_action": {
     "default_popup": "browser_action/chess.html",
     "default_icon": "browser_action/icon.png"
